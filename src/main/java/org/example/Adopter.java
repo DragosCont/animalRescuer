@@ -5,4 +5,5 @@ public class Adopter {
     double adopterMoney;
 
 
+
 }

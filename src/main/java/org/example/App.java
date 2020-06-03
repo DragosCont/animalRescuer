@@ -37,6 +37,7 @@ public class App
         RecreationActivity activity1 = new RecreationActivity();
         activity1.activityName = "Frisbee";
 
+
         System.out.println("The animal prefers the following activity: " + activity1.activityName + ".");
 
         Veterinary vet1 = new Veterinary();
