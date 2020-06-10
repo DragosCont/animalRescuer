@@ -9,42 +9,43 @@ public class App
     public static void main( String[] args )
     {
         Animal animal1 = new Animal();
-        animal1.animalName = "Rex";
-        animal1.animalAge = 2;
-        animal1.animalHealth = 9;
-        animal1.animalHunger = 9;
-        animal1.animalMood = 10;
-        animal1.animalFavoriteActivity = "running";
-        animal1.animalFavoriteFood = "Pedigree";
+        animal1.name = "Rex";
+        animal1.age = 2;
+        animal1.health = 9;
+        animal1.hunger = 9;
+        animal1.mood = 10;
+        animal1.favoriteActivity = "running";
+        animal1.favoriteFood = "Pedigree";
 
 
-        System.out.println("My animal name is " + animal1.animalName + " and age is " + animal1.animalAge + " years old.");
+        System.out.println("My animal name is " + animal1.name + " and age is " + animal1.age + " years old.");
 
         Adopter adopter1 = new Adopter();
-        adopter1.adopterName = "Dragos";
-        adopter1.adopterMoney = 115.5;
+        adopter1.name = "Dragos";
+        adopter1.money = 115.5;
 
-        System.out.println("The adopter name is " + adopter1.adopterName + " and he has " + adopter1.adopterMoney + " money.");
+        System.out.println("The adopter name is " + adopter1.name + " and he has " + adopter1.money + " money.");
 
         AnimalFood food1 = new AnimalFood();
-        food1.foodName = "Pedigree";
-        food1.foodQuantity = 15.25;
-        food1.foodAvailability = 32;
-        food1.foodPrice = 13.45;
+        food1.name = "Pedigree";
+        food1.quantity = 15.25;
+        food1.availability = true;
+        food1.price = 13.45;
 
-        System.out.println("The animal eats " + food1.foodName + " at the price of " + food1.foodPrice + ".");
+
+        System.out.println("The animal eats " + food1.name + " at the price of " + food1.price + ".");
 
         RecreationActivity activity1 = new RecreationActivity();
-        activity1.activityName = "Frisbee";
+        activity1.name = "Frisbee";
 
 
-        System.out.println("The animal prefers the following activity: " + activity1.activityName + ".");
+        System.out.println("The animal prefers the following activity: " + activity1.name + ".");
 
         Veterinary vet1 = new Veterinary();
         vet1.vetName = "John";
-        vet1.vetSpecialization = "nutrition";
+        //vet1.vetSpecialization = "nutrition";
 
-        System.out.println("Veterinary name is " + vet1.vetName + " and his specialization is " + vet1.vetSpecialization + ".");
+        //System.out.println("Veterinary name is " + vet1.vetName + " and his specialization is " + vet1.vetSpecialization + ".");
     }
 
 }

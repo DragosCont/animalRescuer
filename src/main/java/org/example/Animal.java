@@ -1,13 +1,15 @@
 package org.example;
 
 public class Animal {
-    String animalName;
-    int animalAge;
-    int animalHealth;
-    int animalHunger;
-    int animalMood;
-    String animalFavoriteFood;
-    String animalFavoriteActivity;
+    String name;
+    int age;
+    int health;
+    int hunger;
+    int mood;
+    String favoriteFood;
+    String favoriteActivity;
+
+
 
 
 
