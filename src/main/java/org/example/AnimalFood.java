@@ -11,5 +11,10 @@ public class AnimalFood {
     boolean availability;
 
 
-
+    public AnimalFood(String name, double price, double quantity, boolean availability) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.availability = availability;
+    }
 }

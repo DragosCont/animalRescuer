@@ -5,4 +5,7 @@ public class Veterinary {
     String vetSpecialization;
 
 
+    public Veterinary(String vetName) {
+        this.vetName = vetName;
+    }
 }

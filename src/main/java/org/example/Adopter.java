@@ -5,5 +5,7 @@ public class Adopter {
     double money;
 
 
-
+    public Adopter(String name) {
+        this.name = name;
+    }
 }

@@ -10,4 +10,10 @@ public class Animal extends Bird {
     String favoriteFood;
     String favoriteActivity;
 
+
+    public Animal( String name) {
+        this.name = name;
+    }
+
+
 }

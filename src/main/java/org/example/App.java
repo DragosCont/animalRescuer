@@ -8,8 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        Animal animal1 = new Animal();
-        animal1.name = "Rex";
+        Animal animal1 = new Animal("Rex");
+       // animal1.name = "Rex";
         animal1.age = 2;
         animal1.health = 9;
         animal1.hunger = 9;
@@ -21,17 +21,17 @@ public class App
 
         System.out.println("My animal name is " + animal1.name + " and age is " + animal1.age + " years old.");
 
-        Adopter adopter1 = new Adopter();
-        adopter1.name = "Dragos";
+        Adopter adopter1 = new Adopter("Dragos");
+       // adopter1.name = "Dragos";
         adopter1.money = 115.5;
 
         System.out.println("The adopter name is " + adopter1.name + " and he has " + adopter1.money + " money.");
 
-        AnimalFood food1 = new AnimalFood();
-        food1.name = "Pedigree";
-        food1.quantity = 15.25;
-        food1.availability = true;
-        food1.price = 13.45;
+        AnimalFood food1 = new AnimalFood("Pedigree", 13.45,15.25,true);
+//        food1.name = "Pedigree";
+//        food1.quantity = 15.25;
+//        food1.availability = true;
+//        food1.price = 13.45;
 
 
 
@@ -45,8 +45,8 @@ public class App
 
         System.out.println("The animal prefers the following activity: " + activity1.name + ".");
 
-        Veterinary vet1 = new Veterinary();
-        vet1.vetName = "John";
+        Veterinary vet1 = new Veterinary("John");
+       // vet1.vetName = "John";
         vet1.vetSpecialization = "nutrition";
 
         System.out.println("Veterinary name is " + vet1.vetName + " and his specialization is " + vet1.vetSpecialization + ".");
