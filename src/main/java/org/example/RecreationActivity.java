@@ -1,6 +1,6 @@
 package org.example;
 
-public class RecreationActivity {
+public class RecreationActivity extends Energy {
     String name;
 
 

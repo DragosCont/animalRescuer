@@ -18,6 +18,7 @@ public class App
         animal1.favoriteFood = "Pedigree";
 
 
+
         System.out.println("My animal name is " + animal1.name + " and age is " + animal1.age + " years old.");
 
         Adopter adopter1 = new Adopter();
@@ -33,19 +34,22 @@ public class App
         food1.price = 13.45;
 
 
+
         System.out.println("The animal eats " + food1.name + " at the price of " + food1.price + ".");
+        System.out.println("The food expires in " + food1.expirationDate);
 
         RecreationActivity activity1 = new RecreationActivity();
         activity1.name = "Frisbee";
+        activity1.energyLevel = 8;
 
 
         System.out.println("The animal prefers the following activity: " + activity1.name + ".");
 
         Veterinary vet1 = new Veterinary();
         vet1.vetName = "John";
-        //vet1.vetSpecialization = "nutrition";
+        vet1.vetSpecialization = "nutrition";
 
-        //System.out.println("Veterinary name is " + vet1.vetName + " and his specialization is " + vet1.vetSpecialization + ".");
+        System.out.println("Veterinary name is " + vet1.vetName + " and his specialization is " + vet1.vetSpecialization + ".");
     }
 
 }
