@@ -5,7 +5,7 @@ public class Animal extends Bird {
     String name;
     int age;
     int health;
-    int hunger;
+    int hungerLevel;
     int mood;
     String favoriteFood;
     String favoriteActivity;
