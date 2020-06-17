@@ -9,6 +9,7 @@ public class AnimalFood {
     double quantity;
     LocalDate expirationDate = LocalDate.now().plusYears(1);
     boolean availability;
+    String favoriteFoodName;
 
 
     public AnimalFood(String name, double price, double quantity, boolean availability) {

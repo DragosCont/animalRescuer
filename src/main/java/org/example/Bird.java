@@ -2,7 +2,7 @@ package org.example;
 
 public class Bird {
 
-    Wings wings;
+    boolean fly;
 
 //    public Bird(Wings wings) {
 //        this.wings = wings;

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Animal extends Bird {
+public class Animal {
 
     String name;
     int age;

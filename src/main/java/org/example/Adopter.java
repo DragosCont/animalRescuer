@@ -15,13 +15,24 @@ public class Adopter {
 
         animal.hungerLevel --;
 
+        if (animalfood.name.equals(animalfood.favoriteFoodName)) {
+            animal.mood ++;
+        }else {
+            animal.mood += 0;
+        }
+
     }
 
-    public void havingFun (Animal animal, RecreationActivity recreationActivity, Energy energy) {
+    public void havingFun (Animal animal, RecreationActivity recreationActivity) {
         System.out.println(name + " is playing " + recreationActivity.name + " with " + animal.name);
 
         animal.mood ++;
-        energy.energyLevel --;
+
+        if(recreationActivity.name.equals(recreationActivity.favoriteActivityName)){
+            animal.mood +=2;
+        }else{
+            animal.mood ++;
+        }
 
     }
 }
